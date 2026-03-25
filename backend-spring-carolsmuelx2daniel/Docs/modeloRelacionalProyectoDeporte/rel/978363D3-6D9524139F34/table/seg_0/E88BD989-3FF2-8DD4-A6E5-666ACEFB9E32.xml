@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E88BD989-3FF2-8DD4-A6E5-666ACEFB9E32" name="TIPO_USUARIO">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:39:33 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_usuario" id="6975DF52-C0C7-14CD-C78C-BFCD9A9B9F4C">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:41:36 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E64DDB0-CD18-C534-3099-5C2678E41010" name="TIPO_USUARIO_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:41:36 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6975DF52-C0C7-14CD-C78C-BFCD9A9B9F4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

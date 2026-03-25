@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33DECDE7-E949-49B9-5D56-B5BE2D2390BF" containerWithKeyObject="6C95DB5F-7751-DBB8-C729-ED08C97D092E" localFKIndex="44A5EAC6-EC6B-721E-91AB-77C89A2DA8FD" name="RUTINAS_PROGRESO_RUTINAS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:28:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<referredTableLongName>RUTINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CD44A64-5301-A4B4-7FA9-D6E9DB48FB8C</referredTableID>
+<keyObject>EBBF77BC-8A27-2BA9-B664-D2039845CB18</keyObject>
+<referredKeyID>EBBF77BC-8A27-2BA9-B664-D2039845CB18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_rutina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

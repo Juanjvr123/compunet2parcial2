@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11E1ADB6-3B8C-FC20-06EC-02EC8461720C" name="ESPACIO_EVENTO">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:57:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evento" id="7F665780-D907-0934-EEA8-3324080DAD5B">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:58:29 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D7E2848-7FFD-6DE5-9129-5E8BD8B5225D" referredColumn="B79BE3FA-D020-EDFA-DB8C-294A601F10DF"/>
+</associations>
+</Column>
+<Column name="id_espacio_disponible" id="A3918F53-9B8D-75F7-7F88-E9C4C150092E">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:58:34 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5850076-D081-4930-5752-02F1311FAFB5" referredColumn="E1457198-2454-03C4-4F48-881EB082C192"/>
+</associations>
+</Column>
+<Column name="id_espacio_evento" id="12FA1A33-9FE0-FBC1-0051-93ACFCA0A61C">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:59:10 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70697DD6-3990-2E64-A48A-E2D8D9CD39C5" name="ESPACIO_EVENTO_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:58:15 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12FA1A33-9FE0-FBC1-0051-93ACFCA0A61C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2865A51-231E-25E9-9444-DC7DDF41B485" name="ESPACIO_EVENTO_EVENTOS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:58:29 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F665780-D907-0934-EEA8-3324080DAD5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="043BDE32-3A5D-B449-A0B5-B0C94E377D51" name="ESPACIO_EVENTO_ESPACIO_DISPONIBLE_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:58:34 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3918F53-9B8D-75F7-7F88-E9C4C150092E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

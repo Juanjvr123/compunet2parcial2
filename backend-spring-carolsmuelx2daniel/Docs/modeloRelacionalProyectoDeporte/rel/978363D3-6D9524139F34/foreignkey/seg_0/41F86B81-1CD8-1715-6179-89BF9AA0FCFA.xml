@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41F86B81-1CD8-1715-6179-89BF9AA0FCFA" containerWithKeyObject="6C95DB5F-7751-DBB8-C729-ED08C97D092E" localFKIndex="D068A204-4027-5C6C-B650-E68A86DD461F" name="RUTINAS_PROGRESO_PROGRESO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:28:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<referredTableLongName>PROGRESO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5D1EA23-46E5-9D61-9F39-D1354875FCF7</referredTableID>
+<keyObject>DE680189-38CF-E799-8865-2BC155BE71C0</keyObject>
+<referredKeyID>DE680189-38CF-E799-8865-2BC155BE71C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_progreso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

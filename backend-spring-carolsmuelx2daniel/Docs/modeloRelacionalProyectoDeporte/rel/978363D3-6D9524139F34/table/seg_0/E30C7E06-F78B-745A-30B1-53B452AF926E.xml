@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E30C7E06-F78B-745A-30B1-53B452AF926E" name="ENTRENADOR">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:56:33 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="B6B61DAA-CAB1-7847-CF3B-D48E3225DE5C">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:29 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id" id="1D85E2FD-B239-787A-1955-49DBAE264E21">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ED7CE1D-87D3-490E-3A88-A11ACC987920" referredColumn="8F15A0DF-C3C5-8F12-5EC0-496C4573938B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D080A296-DD7A-E6D8-1B84-E8EC8807D066" name="ENTRENADOR_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:29 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6B61DAA-CAB1-7847-CF3B-D48E3225DE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89ADD0DB-EDFE-6D58-1A83-9A062E2EB724" name="ENTRENADOR_USUARIO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D85E2FD-B239-787A-1955-49DBAE264E21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

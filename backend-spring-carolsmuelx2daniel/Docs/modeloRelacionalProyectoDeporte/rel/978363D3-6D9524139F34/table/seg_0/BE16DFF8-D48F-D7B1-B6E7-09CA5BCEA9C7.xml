@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE16DFF8-D48F-D7B1-B6E7-09CA5BCEA9C7" name="TIPO_RUTINA">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:45:10 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_rutina" id="08195001-E1C4-AF0B-5D3D-5F76CC86CB12">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:45:46 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F20E1E9C-CEB6-74E7-2783-9ED0E42232D4" name="TIPO_RUTINA_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:45:46 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08195001-E1C4-AF0B-5D3D-5F76CC86CB12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

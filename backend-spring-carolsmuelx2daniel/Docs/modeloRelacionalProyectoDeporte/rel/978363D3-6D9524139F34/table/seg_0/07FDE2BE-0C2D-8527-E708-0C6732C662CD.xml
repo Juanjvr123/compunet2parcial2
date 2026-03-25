@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07FDE2BE-0C2D-8527-E708-0C6732C662CD" name="EVENTOS_CREADO_ENTRENADOR">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:39:50 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTOS_Id_evento" id="4F775F81-5A09-5566-373E-6B6C43A1933F">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:41:37 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB61B9A0-E9CF-25AC-94FB-16090D1790A5" referredColumn="B79BE3FA-D020-EDFA-DB8C-294A601F10DF"/>
+</associations>
+</Column>
+<Column name="ENTRENADOR_Id" id="F55DAAF4-600D-F430-5459-C169A3953752">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:42:56 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DC53425-F2B4-24C0-6140-1FC94F0186F8" referredColumn="B6B61DAA-CAB1-7847-CF3B-D48E3225DE5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBB99B6D-6299-8F17-A55C-B88F829CFCA6" name="TABLE_23_EVENTOS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:41:37 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F775F81-5A09-5566-373E-6B6C43A1933F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5ED28E2-40A3-E13A-95FA-A49EB7956E5E" name="TABLE_23_ENTRENADOR_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:42:56 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55DAAF4-600D-F430-5459-C169A3953752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

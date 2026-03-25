@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90AEC24B-67F1-1090-9F4E-72369C9D9271" name="TIPO_EJERCICIOS">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:16:47 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre_ejercicio" id="DADD14B5-E404-F93A-3443-E0266B6C80E7">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:17:44 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1CC681B-428D-01E9-9775-4F227BB38D82" name="TIPO_EJERCICIOS_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:17:44 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DADD14B5-E404-F93A-3443-E0266B6C80E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

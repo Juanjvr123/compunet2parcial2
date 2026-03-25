@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="947C9691-B291-D0B1-5483-1108B8D4ADB0" name="ASISTENTES_EVENTOS">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:39:42 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTOS_Id_evento" id="0CCE07E5-F3E9-5F76-0560-019C511C8EA2">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:41:41 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD50D8D4-1FD6-2579-42BB-7EB21B635DC2" referredColumn="B79BE3FA-D020-EDFA-DB8C-294A601F10DF"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTE/COLABORADOR_Id" id="C5E3B1F5-F484-31C9-D804-2DD9E4C4C434">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:43:27 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C0F51BE-BF41-255B-54FB-442CCD0B8525" referredColumn="F91BF6DE-C380-4B27-8FA6-4DD95333E5FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99B38DBA-7A08-09F4-A1FB-20C7F92F841C" name="TABLE_21_EVENTOS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:41:41 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CCE07E5-F3E9-5F76-0560-019C511C8EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAFF3CF9-3067-B1F6-31AD-65DF1870CC24" name="TABLE_21_ESTUDIANTE/COLABORADOR_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:43:27 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E3B1F5-F484-31C9-D804-2DD9E4C4C434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

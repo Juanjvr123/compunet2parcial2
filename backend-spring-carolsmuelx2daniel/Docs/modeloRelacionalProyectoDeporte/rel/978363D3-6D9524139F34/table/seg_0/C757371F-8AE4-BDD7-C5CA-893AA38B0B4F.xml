@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C757371F-8AE4-BDD7-C5CA-893AA38B0B4F" name="EVENTOS_CREADOS_ADMINISTRADOR">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:39:46 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTOS_Id_evento" id="4B9D26A6-4FE7-D9FF-02BB-5C60F31816A1">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:41:31 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0165724-2831-772D-BBEF-7E59629E3F47" referredColumn="B79BE3FA-D020-EDFA-DB8C-294A601F10DF"/>
+</associations>
+</Column>
+<Column name="ADMINISTRADOR_Id" id="D5C1777A-4EDA-7BAB-0027-81250B45FB53">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:43:33 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AF393A2-0592-2BB5-EE76-5DB6E9B12DF7" referredColumn="ACC68CB2-28B0-CF6B-E225-E6BF8378D1D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB4C0B1A-3AA4-390F-94DA-0F0997237A5D" name="TABLE_22_EVENTOS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:41:31 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B9D26A6-4FE7-D9FF-02BB-5C60F31816A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48885763-55E6-D5E5-535B-BC4FEC6088D2" name="TABLE_22_ADMINISTRADOR_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:43:33 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5C1777A-4EDA-7BAB-0027-81250B45FB53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

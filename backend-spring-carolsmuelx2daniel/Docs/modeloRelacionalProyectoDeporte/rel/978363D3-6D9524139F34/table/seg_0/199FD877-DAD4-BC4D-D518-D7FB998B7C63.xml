@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="199FD877-DAD4-BC4D-D518-D7FB998B7C63" name="ADMINISTRADOR">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:56:43 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="ACC68CB2-28B0-CF6B-E225-E6BF8378D1D0">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:43 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id" id="C4CD5FCC-A59B-507E-2D1C-3AD5E20F34FB">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:57 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B4DCC84-4068-9B98-56DA-625FE20C0C44" referredColumn="8F15A0DF-C3C5-8F12-5EC0-496C4573938B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F4641F5-A6E5-0890-713C-13103F7495E3" name="ADMINISTRADOR_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:43 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACC68CB2-28B0-CF6B-E225-E6BF8378D1D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E112016-08F5-B018-1501-E46EAAE0CB9F" name="ADMINISTRADOR_USUARIO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:58:57 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4CD5FCC-A59B-507E-2D1C-3AD5E20F34FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

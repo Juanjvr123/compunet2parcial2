@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C56C6122-3DDD-CF63-C706-8659298E1125" name="RUTINAS _PERSONALIZADAS">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:59:16 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE/COLABORADOR_Id" id="B04162C4-4288-1A5D-E61F-E6D4A8BEA738">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:00:04 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="793452BC-CA27-7A15-71CD-F2D050D38415" referredColumn="F91BF6DE-C380-4B27-8FA6-4DD95333E5FD"/>
+</associations>
+</Column>
+<Column name="RUTINAS_Id_rutina" id="C4E2777A-EEF2-21B7-D30E-B66E4A16E88C">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:00:10 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05075C08-06E4-ED58-1AB5-1313BFC644BD" referredColumn="2B6A3D4E-9027-9134-341D-8687199632E0"/>
+</associations>
+</Column>
+<Column name="id" id="1213F635-CCBB-9E05-8259-B22B813F8ADD">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:04:15 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37FC736B-7B39-EA72-39C5-D3FA3A13EBBD" name="RUTINAS _PERSONALIZADAS_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:04:15 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1213F635-CCBB-9E05-8259-B22B813F8ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEDA25B7-DF04-5694-6643-930AE135FED8" name="RUTINAS _PERSONALIZADAS_ESTUDIANTE/COLABORADOR_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:00:04 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B04162C4-4288-1A5D-E61F-E6D4A8BEA738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEB9DA61-0C2E-6F6A-EBA9-BB83BAC48CC8" name="RUTINAS _PERSONALIZADAS_RUTINAS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 20:00:10 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4E2777A-EEF2-21B7-D30E-B66E4A16E88C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

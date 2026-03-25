@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDCD1EE6-4D60-1EE8-FDE2-05EF60897B3B" name="USUARIO">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:24:52 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8F15A0DF-C3C5-8F12-5EC0-496C4573938B">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:31:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userName" id="1E2C3699-0A98-1AC6-4FBD-A806A0F14C8D">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:31:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="95B230D3-A708-114B-CE77-DA664E53E979">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:31:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="868287A7-3FF7-027D-E965-D6A90C9300D6">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:31:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_USUARIO_tipo_usuario" id="7812D49E-C22B-DF62-05CD-108616D80FE4">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:42:37 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E47826CE-4A01-0F02-9A10-C3EE8513D724" referredColumn="6975DF52-C0C7-14CD-C78C-BFCD9A9B9F4C"/>
+</associations>
+</Column>
+<Column name="ASISTENTES_EVENTOS_id" id="29A12245-71A9-0E57-516F-3F6159BF954C">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-24 19:19:39 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD84090B-FCD4-22B0-0F60-3DCA94A9323D" name="USUARIO_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:31:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F15A0DF-C3C5-8F12-5EC0-496C4573938B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="451CD032-E329-3CAB-E000-F2117B0B4D20" name="USUARIO_TIPO_USUARIO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 22:42:37 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7812D49E-C22B-DF62-05CD-108616D80FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

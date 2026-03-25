@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C95DB5F-7751-DBB8-C729-ED08C97D092E" name="RUTINAS_PROGRESO">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:27:49 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rutina" id="2CCF957F-3AF9-F30A-BF0A-624A8FA1F662">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:28:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33DECDE7-E949-49B9-5D56-B5BE2D2390BF" referredColumn="2B6A3D4E-9027-9134-341D-8687199632E0"/>
+</associations>
+</Column>
+<Column name="id_progreso" id="5F013D71-7E1D-3F63-35EA-A211DB9EB47A">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:28:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41F86B81-1CD8-1715-6179-89BF9AA0FCFA" referredColumn="2947BFAE-872E-C0A0-7580-1772B1319528"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44A5EAC6-EC6B-721E-91AB-77C89A2DA8FD" name="RUTINAS_PROGRESO_RUTINAS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:28:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCF957F-3AF9-F30A-BF0A-624A8FA1F662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D068A204-4027-5C6C-B650-E68A86DD461F" name="RUTINAS_PROGRESO_PROGRESO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:28:58 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F013D71-7E1D-3F63-35EA-A211DB9EB47A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

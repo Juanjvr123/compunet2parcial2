@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E3E4E06-CBDF-198A-9FBB-F76548EA2FDD" name="EJERCICIOS_RUTINA">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:13:25 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ejercicios" id="5BB97D66-5A58-A300-D89E-477B7B7F91E9">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:13:43 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E64766A-FAE3-0690-60B4-E18D3034595B" referredColumn="156427CB-043E-AF0D-84B1-B26357430EC1"/>
+</associations>
+</Column>
+<Column name="id_rutina" id="38CAF6B5-176C-3F42-26C9-CE5069004E70">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:13:47 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6E8E066-FBBD-DBCB-C361-E95E14236BFF" referredColumn="2B6A3D4E-9027-9134-341D-8687199632E0"/>
+</associations>
+</Column>
+<Column name="repeticiones" id="040AE72E-DB4F-AE9C-D3ED-7005D6ABD572">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:16:02 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7463D634-B6E8-8D03-F767-F200C6DD2620" name="EJERCICIOS_RUTINA_EJERCICIOS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:13:43 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BB97D66-5A58-A300-D89E-477B7B7F91E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="578B9D51-5C0E-CD83-7298-C5820DD403A1" name="EJERCICIOS_RUTINA_RUTINAS_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-02-21 23:13:47 UTC</createdTime>
+<ownerDesignName>modeloRelacionalProyectoDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38CAF6B5-176C-3F42-26C9-CE5069004E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
